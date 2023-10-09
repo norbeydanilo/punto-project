@@ -1,10 +1,28 @@
-## Getting Started
+## Ejercicio de Encapsulamiento, herencia y polimorfismo - 2
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+.
 
-## Folder Structure
+## Diagrama de clases
 
-The workspace contains two folders by default, where:
+<!--
+Usar para generar con plantuml:
+plantuml -tsvg README.md
+-->
+
+<!--
+<div hidden>
+```
+@startuml firstDiagram
+
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+		
+@enduml
+```
+</div>
+-->
+
+![](firstDiagram.svg)
 
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
