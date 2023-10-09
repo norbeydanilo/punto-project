@@ -1,6 +1,12 @@
-## Ejercicio de Encapsulamiento, herencia y polimorfismo - 2
+# Ejercicio de Encapsulamiento, herencia y polimorfismo - 1
 
-.
+Ejemplo de aplicación de encapsulamiento, herencia y polimorfismo. 
+
+- La clase Punto es la clase base que representa un punto en un plano bidimensional. 
+- La clase PuntoTiempo es una subclase de Punto que agrega un campo adicional tiempo para representar el tiempo asociado a un punto. 
+- Y finalmente, la clase Punto3D es una subclase de PuntoTiempo que representa un punto en un espacio tridimensional, agregando un campo z adicional.
+
+Se aplica el polimorfismo en los métodos constructores y el método módulo.
 
 ## Diagrama de clases
 
@@ -45,13 +51,10 @@ PuntoTiempo <|-- Punto3D
 
 ![](diagrama-clases.svg)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## About :octocat:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+:alien: **Author:** exercise were made by Norbey Danilo Muñoz Cañón and Universidad Distrital students.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+:blue_book: **Thanks!**
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> :bird: "Hazlo todo tan simple como sea posible, pero no más simple"
