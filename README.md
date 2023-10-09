@@ -10,7 +10,7 @@ Usar para generar con plantuml:
 plantuml -tsvg README.md
 -->
 
-<!-->
+<!--
 ```
 @startuml diagrama-clases
 class Punto {
