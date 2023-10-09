@@ -5,24 +5,45 @@
 ## Diagrama de clases
 
 <!--
+https://gist.github.com/noamtamim/f11982b28602bd7e604c233fbe9d910f
 Usar para generar con plantuml:
 plantuml -tsvg README.md
 -->
 
-<!--
-<div hidden>
+<!-->
 ```
-@startuml firstDiagram
+@startuml diagrama-clases
+class Punto {
+  - x: int
+  - y: int
+  + Punto(x: int, y: int)
+  + getX(): int
+  + getY(): int
+  + setX(x: int): void
+  + setY(y: int): void
+  + modulo(): double
+}
 
-Alice -> Bob: Hello
-Bob -> Alice: Hi!
-		
+class PuntoTiempo {
+  - tiempo: int
+  + PuntoTiempo(x: int, y: int, tiempo: int)
+  + getTiempo(): int
+  + setTiempo(t: int): void
+}
+
+class Punto3D {
+  - z: int
+  + Punto3D(x: int, y: int, z: int, tiempo: int)
+  + modulo(): double
+}
+
+Punto <|-- PuntoTiempo
+PuntoTiempo <|-- Punto3D
 @enduml
 ```
-</div>
 -->
 
-![](firstDiagram.svg)
+![](diagrama-clases.svg)
 
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
