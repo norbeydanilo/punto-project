@@ -1,4 +1,4 @@
-# Ejercicio de Encapsulamiento, herencia y polimorfismo - 1
+# 1- Ejercicio de Encapsulamiento, herencia y polimorfismo
 
 Ejemplo de aplicación de encapsulamiento, herencia y polimorfismo. 
 
