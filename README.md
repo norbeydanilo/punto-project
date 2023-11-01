@@ -2,11 +2,11 @@
 
 Ejemplo de aplicación de encapsulamiento, herencia y polimorfismo. 
 
-- La clase Punto es la clase base que representa un punto en un plano bidimensional. 
-- La clase PuntoTiempo es una subclase de Punto que agrega un campo adicional tiempo para representar el tiempo asociado a un punto. 
-- Y finalmente, la clase Punto3D es una subclase de PuntoTiempo que representa un punto en un espacio tridimensional, agregando un campo z adicional.
+- La clase `Punto` es la clase base que representa un punto en un plano bidimensional. 
+- La clase `PuntoTiempo` es una subclase de `Punto` que agrega un campo adicional tiempo para representar el tiempo asociado a un punto. 
+- Y finalmente, la clase `Punto3D` es una subclase de `PuntoTiempo` que representa un punto en un espacio tridimensional, agregando un campo `z` adicional.
 
-Se aplica el polimorfismo en los métodos constructores y el método módulo.
+Se aplica el polimorfismo estático (compilación) en los métodos constructores y dinámico (ejecución) en el método módulo.
 
 ## Diagrama de clases
 
